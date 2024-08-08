@@ -15,20 +15,10 @@ Reporting: Generated reports on tender status, bidder participation, and contrac
 Skills Demonstrated: Full-stack development, database management, security protocols, project management, and user interface design.
 Outcome: Successfully reduced the tender processing time by 40% and improved the transparency of the bidding process.
 OnlineTenderManagementSystem/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/tender/management/
-│   │   │       ├── controller/
-│   │   │       ├── model/
-│   │   │       ├── repository/
-│   │   │       ├── service/
-│   │   │       └── OnlineTenderManagementSystemApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       ├── templates/
-│   │       └── static/
-│   └── test/
-├── pom.xml
-└── README.md
+
+ Running the Project
+
+Please make sure MySQL is running, and the database is set up.
+Use Maven or Gradle to build the Spring Boot project (mvn clean install).
+Run the Spring Boot application (mvn spring-boot:run).
+Access the front end through your browser at http://localhost:8080/.
