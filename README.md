@@ -14,3 +14,21 @@ Data Security: Implemented encryption for sensitive data like bids and tender do
 Reporting: Generated reports on tender status, bidder participation, and contract awards for organizational analysis.
 Skills Demonstrated: Full-stack development, database management, security protocols, project management, and user interface design.
 Outcome: Successfully reduced the tender processing time by 40% and improved the transparency of the bidding process.
+OnlineTenderManagementSystem/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/tender/management/
+│   │   │       ├── controller/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+│   │   │       └── OnlineTenderManagementSystemApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── templates/
+│   │       └── static/
+│   └── test/
+├── pom.xml
+└── README.md
