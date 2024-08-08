@@ -1,0 +1,18 @@
+       OnlineTenderManagementSystem/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/tender/management/
+│   │   │       ├── controller/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+│   │   │       └── OnlineTenderManagementSystemApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── templates/
+│   │       └── static/
+│   └── test/
+├── pom.xml
+└── README.md
