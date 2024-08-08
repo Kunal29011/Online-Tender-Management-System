@@ -1,0 +1,28 @@
+package com.tender.management.controller;
+
+import com.tender.management.model.Tender;
+import com.tender.management.service.TenderService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/tenders")
+public class TenderController {
+    
+    @Autowired
+    private TenderService tenderService;
+    
+    @GetMapping
+    public List<Tender> getAllTenders() {
+        return tenderService.getAllTenders();
+    }
+    
+    @PostMapping
+    public Tender createTender(@RequestBody Tender tender) {
+        return tenderService.createTender(tender);
+    }
+    
+    // Additional endpoints can be added for updating and deleting tenders
+}
