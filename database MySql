@@ -1,0 +1,11 @@
+CREATE DATABASE tender_db;
+
+USE tender_db;
+
+CREATE TABLE tender (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    start_date DATE,
+    end_date DATE
+);
